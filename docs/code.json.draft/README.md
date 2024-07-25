@@ -45,25 +45,25 @@ Sub-folder names for agencies may be derived from the US Code (USC). If the USC 
 	SUBCHAPTER I - Federal Information Policy
 	-3502. Definitions
 	(5)  the term "independent regulatory agency" means
-	the Board of Governors of the Federal Reserve System, 
-	the Commodity Futures Trading Commission, 
-	the Consumer Product Safety Commission, 
-	the Federal Communications Commission, 
-	the Federal Deposit Insurance Corporation, 
-	the Federal Energy Regulatory Commission, 
-	the Federal Housing Finance Agency, 
-	the Federal Maritime Commission, 
-	the Federal Trade Commission, 
-	the Interstate Commerce Commission, 
-	the Mine Enforcement Safety and Health Review Commission, 
-	the National Labor Relations Board, 
-	the Nuclear Regulatory Commission, 
-	the Occupational Safety and Health Review Commission, 
-	the Postal Regulatory Commission, 
-	the Securities and Exchange Commission, 
-	the Bureau of Consumer Financial Protection, 
-	the Office of Financial Research, 
-	Office of the Comptroller of the Currency, 
+	the Board of Governors of the Federal Reserve System, [01] 
+	the Commodity Futures Trading Commission, [02]
+	the Consumer Product Safety Commission, [03]
+	the Federal Communications Commission, [04]
+	the Federal Deposit Insurance Corporation, [05]
+	the Federal Energy Regulatory Commission, [06]
+	the Federal Housing Finance Agency, [07]
+	the Federal Maritime Commission, [08]
+	the Federal Trade Commission, [09]
+	the Interstate Commerce Commission, [10]
+	the Mine Enforcement Safety and Health Review Commission, [11]
+	the National Labor Relations Board, [12]
+	the Nuclear Regulatory Commission, [13]
+	the Occupational Safety and Health Review Commission, [14]
+	the Postal Regulatory Commission, [15]
+	the Securities and Exchange Commission, [16]
+	the Bureau of Consumer Financial Protection, [17]
+	the Office of Financial Research, [18]
+	Office of the Comptroller of the Currency, [19]
 	and any other similar agency designated by statute as a Federal independent regulatory agency or commission;
 
 

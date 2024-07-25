@@ -1,0 +1,33 @@
+Notes
+
+The first overview found was a pdf: https://github.com/HHS/healthdata.gov/blob/master/cqld/hhsSesameScripts/hhsStaticFiles/about.pdf
+	Titles for the program included: Clinical Quality Linked Data (CQLD)
+
+Is this code status still development or something else like archival? The options supplied were Ideation, Development, Alpha, Beta, Release Candidate, Production, Archival. Even if archival, parts of the code might be good to provide training in some technologies and from there, enable superceeding programs to operate.
+
+The Centers for Medicare & Medicaid Services (CMS) web page (https://data.cms.gov/) was running some type of server, but it was not clear exactly what code they had with some exceptions. A CMS page pointed to at least 1 different github repo: https://developer.cms.gov/design-system/
+	The project itself had an internal readme at (https://github.com/HHS/healthdata.gov/blob/master/cqld/README.md) with a href to Linked Data API that went -> to Google code then -> to https://github.com/UKGovLD/linked-data-api
+
+The CMS page had API docs: https://data.cms.gov/api-docs
+
+The ckan folder looked essentially empty for the purposes of code re-use. .DS_Store was assumed to be only for macOS and had cryptic data anyway as viewed from Notepad (Windows).
+
+Some new names were observed for technologies not used yet, so a definition for each looked up:
+	*What is Drupal? What is a free and open-source web content management system (CMS) written in PHP and distributed under the GNU General Public License.
+
+	*What is Virtuoso server? [Wikipedia] Virtuoso Universal Server is a middleware and database engine hybrid that combines the functionality of a traditional relational database management system (RDBMS), object–relational database (ORDBMS), virtual database, RDF, XML, free-text, web application server and file server functionality in a single system.
+
+
+	*What is facet module? Part of Drupal.
+
+	*What is iSparql? SPARQL (pronounced "sparkle", a recursive acronym for SPARQL Protocol and RDF Query Language) is an RDF query language—that is, a semantic query language for databases—able to retrieve and manipulate data stored in Resource Description Framework (RDF) format.
+
+	*What is TopBraid Composer? TopBraid Composer, a component of TopBraid Suite, is a professional development tool for semantic models (ontologies). It is a complete editor for RDF(S) and OWL models, as well as a platform for other RDF-based components and services.
+
+	*What is .DS_Store? In the macOS operating system, .DS_Store is a file that stores custom attributes of its containing folder, such as folder view options, icon positions, and other visual information. The name is an abbreviation of Desktop Services Store, reflecting its purpose.
+
+	*What is a TTL file? Terse RDF Triple Language.
+
+Other data linking programs
+	CDC: https://www.cdc.gov/nchs/data-linkage/index.htm
+	Medicines and Healthcare products Regulatory Agency: https://www.cprd.com/cprd-linked-data

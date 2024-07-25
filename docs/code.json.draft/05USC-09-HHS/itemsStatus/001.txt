@@ -1,0 +1,14 @@
+A question was asked about updating the JSON in the form of a github issue:
+	https://github.com/HHS/pillbox_docs/issues/8
+
+If the repo and coding is active, some follow up questions could include ....
+
+	-a. Can JSON files be used (to read in) the colors and shapes variables instead of re-coding the same variables in 3 source programs - 2 python programs and 1 ruby program:
+		https://gist.github.com/adelaide01/fa7de434a04dca3d7d1f
+		https://github.com/eyeseast/pillbox/blob/master/pillbox.py
+		https://github.com/eyeseast/pillbox/blob/master/pillbox_resource.rb
+
+
+	-b. The program was observed to use the color of pills as part of identifying the exact pill for customer. Thus, would it be good to encourage the W3C working groups doing HTML/CSS colors and IoT devices doing color to consider color consistency?
+
+	-c. would it be a good idea to make the python pill class an example for beginners programming in python? A second issue was submitted to help someone start to run one of the python programs with python3: https://github.com/HHS/pillbox_docs/issues/9

@@ -1,7 +1,20 @@
 # README - code.json.draft
 
+## Contents
 
-Agencies decide how to store their own code.json and an official backup might be done in another way. This folder was to have a draft backup and draft status options. An extra backup for the most recent code.json might provide some relief to agency if the primary was lost due to a computer fault. If the public double checked the status of the existing code.json releases items, some options to edit them may be encountered. This folder also planned to note options for edits.
+<table border=1><caption>Contents</caption>
+<tr><th>Title / link</th></tr>
+<tr><td><a href="inventory">Informal combined inventory</a></td></tr>
+<tr><td><a href="#folderNames">folder Names</a></td></tr>
+</table>
+
+
+<h2 id="inventory">Informal combined inventory</h2>
+Years back someone opened an issue <a href="https://github.com/GSA/code-gov/issues/150">Looking for combined list of federal open source projects #150</a>. This partly motivated generating a table of projects which was saved to a colocated html file titled "code-json.html". 
+<br>This html file is not reviewed for accuracy, it resulted from a quick [cryptic] shell script. At least for programmers, the file may identify opportunities to update the programming langauge for some projects. Languages may be optional field, but where programmers prefer certain langauges, the field might help them search.
+
+<h2 id="folderNames">folder Names</h2>
+Agencies decide how to store their own code.json and an official backup might be done in another way. This folder was to have a draft backup and draft status options. An extra backup for the most recent code.json might provide some relief to agency if the primary was lost due to a computer fault. If the public double checked the status of the existing code.json projects (releases/items), some options to edit them may be encountered. This folder also planned to note options for edits.
 
 Sub-folder names for agencies may be derived from the US Code (USC). If the USC supplied a top level number for an agency, that top level number was applied to a folder name. If no exact number was observed, a sequence starting with 01 was guessed. These first numbers were to capture some code.json files initially observed or advertised. 
 

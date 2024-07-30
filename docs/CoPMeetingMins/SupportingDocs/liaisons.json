@@ -1,0 +1,404 @@
+{
+"filename": "liaisons.json",
+"version": "1.0.0",
+"comments": "draft, option to update",
+"agencies": [
+		{
+		"agency":"Dept. of Agriculture",
+		"agencyRef": "05USC-06",
+		"liaisons": [
+			{ "name": "Alexander Pyle", "email": "Alexander.Pyle@ocio.usda.gov", "phone": "-" },
+			{ "name": "-", "email": "Source.Code@ocio.usda.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Dept. of Commerce", 
+		"agencyRef": "05USC-07",
+		"liaisons": [
+			{ "name": "Rajeev Sharma", "email": "Rajeev.Sharma@doc.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "github", "url": "https://github.com/CommerceGov" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Dept. of Defense", 
+		"agencyRef": "05USC-03",
+		"liaisons": [
+			{"name": "Daniel Risacher", "email":"daniel.r.risacher.civ@mail.mil", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "2020-11-25",	
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Dept. of Education", 
+		"agencyRef": "05USC-13",
+		"liaisons": [
+			{ "name": "William Parker", "email": "William.Parker@ed.gov", "phone": "-" } 
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Dept. of Energy",
+		"agencyRef": "05USC-12",
+		"liaisons": [
+			{ "name": "Denise Hill", "email": "Denise.Hill@hq.doe.gov", "phone": "-" },
+			{ "name": "Alberto Alvarez", "email": "alberto.alvarez@hq.doe.gov", "phone": "-" },
+			{ "name": "Lance Vowell", "email": "vowelll@osti.gov", "phone": "-" },
+			{ "name": "Ian Lee", "email": "lee1001@llnl.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Dept. of Health and Human Services", 
+		"agencyRef": "05USC-09",
+		"liaisons": [
+			{ "name": "Jack Stoute", "email": "Jack.Stoute@hhs.gov", "phone": "-" },
+			{ "name": "Domenic Caruano", "email": "Domenic.Caruano@hhs.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Dept. of Homeland Security",
+		"agencyRef": "05USC-15",
+		"liaisons": [
+			{ "name": "Stephen Quirolgico", "email": "stephen.quirolgico@hq.dhs.gov", "phone": "-" },
+			{ "name": "Brian Campo", "email": "Brian.Campo@hq.dhs.gov", "phone": "-" },
+			{ "name": "Eric Ritter", "email": "eric.ritter@hq.dhs.gov", "phone": "-" },
+			{ "name": "Norman Prentice", "email": "prentice.s.norman@uscis.dhs.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Dept. of Housing and Urban Development",
+		"agencyRef": "05USC-10",
+		"liaisons": [
+			{ "name": "Robert Arrington", "email": "robert.a.arrington@hud.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Dept. of Justice",
+		"agencyRef": "05USC-04",
+		"liaisons": [
+			{ "name": "Russell Washington", "email": "russell.washington2@usdoj.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Dept. of Labor",
+		"agencyRef": "05USC-08",
+		"liaisons": [
+			{ "name": "Renee Zhao", "email": "Zhao.Renee.Y@dol.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Dept. of State",
+		"agencyRef": "05USC-01",
+		"liaisons": [
+			{ "name": "Rod Morgan", "email": "MorganR@state.gov", "phone": "-" }
+		], 
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Dept. of Interior",
+		"agencyRef": "05USC-05",
+		"liaisons": [
+			{ "name": "Lin Zhang", "email": "lin.zhang@ios.doi.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Dept. of Treasury",
+		"agencyRef": "05USC-02",
+		"liaisons": [
+			{ "name": "Tony Lu", "email": " tao.lu@treasury.gov", "phone": "-" },
+			{ "name": "Rajeev Mishra", "email": "rajeev.mishra@treasury.gov", "phone": "-" },
+			{ "name": "Eric Lao", "email": "eric.luo@treasury.gov", "phone": "-" },
+			{ "name": "Andrea Miller", "email": "andrea.miller@treasury.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Dept. of Transportation",
+		"agencyRef": "05USC-11",
+		"liaisons": [
+			{ "name": "Dan Morgan", "email": "daniel.morgan@dot.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Dept. of Veterans Affairs",
+		"agencyRef": "05USC-14",
+		"liaisons": [
+			{ "name": "Christina VanMetre", "email": "Christina.Vanmetre@va.gov", "phone": "-" },
+			{ "name": "Theresa Gainsburg", "email": "Theresa.Gainsburg@va.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "2020-03-19",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency": "Environmental Protection Agency",
+		"agencyRef": "05USC-16",
+		"liaisons": [
+			{ "name": "Lico Galindo", "email": "Galindo.Lico@epa.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency": "General Services Administration",
+		"agencyRef": "40USC-03",
+		"liaisons": [
+			{ "name": "Vicki McFadden", "email": "victoria.mcfadden@gsa.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "2024-03-28",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"National Aeronautics and Space Administration",
+		"agencyRef": "51USC-201",
+		"liaisons": [
+			{ "name": "Travis Kantz", "email": "travis.kantz@nasa.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "2020-08-28",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"National Science Foundation", 
+		"agencyRef": "42USC-16",
+		"liaisons": [
+			{ "name": "Elanchezhian Sivagnanam", "email": "esivagna@nsf.gov", "phone": "-" },
+			{ "name": "Garey Taylor", "email": "gtaylor@associates.nsf.gov", "phone": "-" },
+			{ "name": "Akhilesh Mathur", "email": "amathur@associates.nsf.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Nuclear Regulatory Commission", 
+		"agencyRef": "44USC-13",
+		"liaisons": [
+			{ "name": "Arthur Smith", "email": "arthur.smith@nrc.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Office of Personnel Management", 
+		"agencyRef": "05USC-17",
+		"liaisons": [
+			{ "name": "Adrian Lintz", "email": "adrian.lintz@opm.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Small Business Administration", 
+		"agencyRef": "15USC-14A",
+		"liaisons": [
+			{ "name": "Andrew Davy", "email": "Andrew.Davy@sba.gov", "phone": "-" },
+			{ "name": "Ryan Hillard", "email": "Ryan.Hillard@sba.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Social Security Administration", 
+		"agencyRef": "42USC-07",
+		"liaisons": [
+			{ "name": "Joseph Amalfitano", "email": "joseph.amalfitano@ssa.gov", "phone": "-" },
+			{ "name": "Kailash (Kal) Pathak", "email": "kailash.pathak@ssa.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "2020-03-21",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"US Agency for International Development", 
+		"agencyRef": "22USC-74",
+		"liaisons": [
+			{ "name": "Danny You", "email": "syou@usaid.gov", "phone": "-" },
+			{ "name": "Nancy Le", "email": "nle@usaid.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"National Archives and Records Administration", 
+		"agencyRef": "44USC-21",
+		"liaisons": [
+			{ "name": "Mike Senseney", "email": "michael.senseney@nara.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "2020-11-23",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Consumer Financial Protection Bureau", 
+		"agencyRef": "12USC-53",
+		"liaisons": [
+			{ "name": "Scott Cranfill", "email": "Scott.Cranfill@cfpb.gov", "phone": "-" },
+			{ "name": "Adam Scott", "email": "adam.scott@cfpb.gov", "phone": "-" },
+			{ "name": "William Barton", "email": "William.Barton@cfpb.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		},
+		{
+		"agency":"Federal Election Commission", 
+		"agencyRef": "52USC-01",
+		"liaisons": [
+			{ "name": "Laura Beaufort", "email": "lbeaufort@fec.gov", "phone": "-" }
+		],
+		"repos": [
+			{ "name": "-", "url": "-" }
+		],
+		"lastModified": "-",
+		"offboarding": [
+			{ "title": "-", "url": "-" }
+		]
+		}
+]
+}

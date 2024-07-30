@@ -11,15 +11,16 @@
 
 <h2 id="inventory">Informal combined inventory</h2>
 Years back someone opened an issue <a href="https://github.com/GSA/code-gov/issues/150">Looking for combined list of federal open source projects #150</a>. This partly motivated generating a table of projects which was saved to a colocated html file titled "code-json.html". 
-<br>This html file is not reviewed for accuracy, it resulted from a quick [cryptic] shell script. At least for programmers, the file may identify opportunities to update the programming langauge for some projects. Languages may be optional field, but where programmers prefer certain langauges, the field might help them search.
+<br>This html file is not reviewed for accuracy, it resulted from a quick [cryptic] shell script.
 
 <h2 id="folderNames">folder Names</h2>
-Agencies decide how to store their own code.json and an official backup might be done in another way. This folder was to have a draft backup and draft status options. An extra backup for the most recent code.json might provide some relief to agency if the primary was lost due to a computer fault. If the public double checked the status of the existing code.json projects (releases/items), some options to edit them may be encountered. This folder also planned to note options for edits.
+Agencies decide how to store their own code.json and an official backup might be done in another way. This folder was to have a draft backup and draft status options from one persons reading.
 
-Sub-folder names for agencies may be derived from the US Code (USC). If the USC supplied a top level number for an agency, that top level number was applied to a folder name. If no exact number was observed, a sequence starting with 01 was guessed. These first numbers were to capture some code.json files initially observed or advertised. 
+Sub-folder names for agencies was first derived from the US Code (USC). To be more readable, something probably has to get fixed since this list doesn't match [usa.gov](https://www.usa.gov/agency-index) or [GAO list](https://www.gao.gov/agencies/all-agencies).
 
 
-05USC-01 thru 05USC-15 was planned for the executive departments observed below. And 05USC-16 was added for EPA assuming it came from a reorganization plan.
+
+05USC-01 thru 05USC-15 was planned for the executive departments observed below. And 05USC-16 was added for EPA assuming it came from a reorganization plan. 05USC-17 added for OPM.
 	05 USC — Government Organization And Employees
 	PART I: The Agencies Generally
 	CHAPTER 1 — Organization
@@ -41,9 +42,21 @@ Sub-folder names for agencies may be derived from the US Code (USC). If the USC 
 		The Department of Veterans Affairs.
 		The Department of Homeland Security.
 
+	Part II: Civil Service Functions and Responsibilities [OPM]
+
 	Chapter 9 Reorganization plans
 		[EPA]
 
+
+12USC-53 for CFPB
+	12USC — Banks and Banking
+	CHAPTER 53 - WALL STREET REFORM AND CONSUMER PROTECTION
+	SUBCHAPTER V - BUREAU OF CONSUMER FINANCIAL PROTECTION
+
+15USC-14A SBA
+	15USC — Commerce And Trade
+	Chapter 14A—Aid To Small Business
+	633 - Small Business Administration
 
 22USC-74 for U.S. Agency for International Development
 	22 USC Foreign Relations And Intercourse
@@ -51,9 +64,12 @@ Sub-folder names for agencies may be derived from the US Code (USC). If the USC 
 	SUBCHAPTER IV — United States International Development Cooperation Agency
 	-6563. Status of AID
 
-
-44USC-01 thru 44USC-19 are options for any agencies observed below since NRC's code.json had been advertised in the past code.gov website).
+	41USC Public Contracts
+	
+44USC-01 thru 44USC-19 are options for any agencies observed below since NRC's code.json had been advertised in the past code.gov website). 44USC-21 for NARA.
 	44 USC - Public Printing And Documents
+	Chapter 21.National Archives and Records Administration
+
 	CHAPTER 35 - Coordination Of Federal Information Policy
 	SUBCHAPTER I - Federal Information Policy
 	-3502. Definitions
@@ -79,6 +95,7 @@ Sub-folder names for agencies may be derived from the US Code (USC). If the USC 
 	Office of the Comptroller of the Currency, [19]
 	and any other similar agency designated by statute as a Federal independent regulatory agency or commission;
 
+	chapter 21 
 
 40USC-03 for General Services Administration
 	40 USC Public Buildings, Property, and Works
@@ -95,6 +112,11 @@ Sub-folder names for agencies may be derived from the US Code (USC). If the USC 
 		Ch. 16: National Science Foundation
 		1861.Establishment; composition.
 
+51USC-201 for NASA
+	51USC—National and Commercial Space Programs
+	Subtitle II—General Program and Policy Provisions
+	CHAPTER 201—National Aeronautics and Space Program
+	Sec 20111. National Aeronautics and Space Administration.
 
 52USC-01 for Federal Election Commission
 	52 USC Voting and Elections

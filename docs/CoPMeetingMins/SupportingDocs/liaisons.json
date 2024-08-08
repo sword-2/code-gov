@@ -1,8 +1,8 @@
 {
-"filename": "liaisons.json",
-"version": "1.0.0",
-"comments": "draft, option to update",
-"agencies": [
+"Filename": "liaisons.json",
+"Version": "1.0.0",
+"Comments": "draft, option to update",
+"Agencies": [
 		{
 		"agency":"Dept. of Agriculture",
 		"agencyRef": "05USC-06",

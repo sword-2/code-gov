@@ -30,3 +30,8 @@
 |National Archives and Records Administration |Mike Senseney |michael.senseney@nara.gov |
 |Consumer Financial Protection Bureau |Scott Cranfill, Adam Scott, William Barton |Scott.Cranfill@cfpb.gov, adam.scott@cfpb.gov, William.Barton@cfpb.gov |
 |Federal Election Commission |Laura Beaufort |lbeaufort@fec.gov |
+
+
+## Planned update(s)
+This planned section is to print the same liaisons list, but read them from a json file, and also give the web browser the option to select which programming language formatted (sorted) the liaison's data. Web browser selection was to be as fair as possible among a set of companies developing the languages. Minimizing preferences causes more effort, so this is to be determined (TBD).
+The languages from companies were run standalone and not integrated into the web page with [Web Assembly](https://webassembly.org/). The WASM was not understood enough to integrate the language(s) into the web page.

@@ -1,0 +1,410 @@
+
+<p>source file:liaisons.json</p>
+<p>version:1.0.0</p>
+<p>comments:draft, option to update</p>
+<table border=1><caption>Agencies and liaisons</caption>
+	<tr><th>Agency</th>
+	<th>Legal Ref</th>
+	<th>liaisons</th>
+	<th>repositories</th>
+	<th>lastModified</th>
+	<th>offboarding</th>
+</tr>
+<tr>
+	<td>Dept. of State</td>
+	<td>05USC-01</td>
+	<td>
+	0Rod Morgan; MorganR@state.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Dept. of Treasury</td>
+	<td>05USC-02</td>
+	<td>
+	0Tony Lu;  tao.lu@treasury.gov; -
+	1Rajeev Mishra; rajeev.mishra@treasury.gov; -
+	2Eric Lao; eric.luo@treasury.gov; -
+	3Andrea Miller; andrea.miller@treasury.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Dept. of Defense</td>
+	<td>05USC-03</td>
+	<td>
+	0Daniel Risacher; daniel.r.risacher.civ@mail.mil; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>2020-11-25</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Dept. of Justice</td>
+	<td>05USC-04</td>
+	<td>
+	0Russell Washington; russell.washington2@usdoj.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Dept. of Interior</td>
+	<td>05USC-05</td>
+	<td>
+	0Lin Zhang; lin.zhang@ios.doi.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Dept. of Agriculture</td>
+	<td>05USC-06</td>
+	<td>
+	0Alexander Pyle; Alexander.Pyle@ocio.usda.gov; -
+	1-; Source.Code@ocio.usda.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Dept. of Commerce</td>
+	<td>05USC-07</td>
+	<td>
+	0Rajeev Sharma; Rajeev.Sharma@doc.gov; -
+	</td>
+	<td>
+	0github; https://github.com/CommerceGov
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Dept. of Labor</td>
+	<td>05USC-08</td>
+	<td>
+	0Renee Zhao; Zhao.Renee.Y@dol.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Dept. of Health and Human Services</td>
+	<td>05USC-09</td>
+	<td>
+	0Jack Stoute; Jack.Stoute@hhs.gov; -
+	1Domenic Caruano; Domenic.Caruano@hhs.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Dept. of Housing and Urban Development</td>
+	<td>05USC-10</td>
+	<td>
+	0Robert Arrington; robert.a.arrington@hud.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Dept. of Transportation</td>
+	<td>05USC-11</td>
+	<td>
+	0Dan Morgan; daniel.morgan@dot.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Dept. of Energy</td>
+	<td>05USC-12</td>
+	<td>
+	0Denise Hill; Denise.Hill@hq.doe.gov; -
+	1Alberto Alvarez; alberto.alvarez@hq.doe.gov; -
+	2Lance Vowell; vowelll@osti.gov; -
+	3Ian Lee; lee1001@llnl.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Dept. of Education</td>
+	<td>05USC-13</td>
+	<td>
+	0William Parker; William.Parker@ed.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Dept. of Veterans Affairs</td>
+	<td>05USC-14</td>
+	<td>
+	0Christina VanMetre; Christina.Vanmetre@va.gov; -
+	1Theresa Gainsburg; Theresa.Gainsburg@va.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>2020-03-19</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Dept. of Homeland Security</td>
+	<td>05USC-15</td>
+	<td>
+	0Stephen Quirolgico; stephen.quirolgico@hq.dhs.gov; -
+	1Brian Campo; Brian.Campo@hq.dhs.gov; -
+	2Eric Ritter; eric.ritter@hq.dhs.gov; -
+	3Norman Prentice; prentice.s.norman@uscis.dhs.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Environmental Protection Agency</td>
+	<td>05USC-16</td>
+	<td>
+	0Lico Galindo; Galindo.Lico@epa.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Office of Personnel Management</td>
+	<td>05USC-17</td>
+	<td>
+	0Adrian Lintz; adrian.lintz@opm.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Consumer Financial Protection Bureau</td>
+	<td>12USC-53</td>
+	<td>
+	0Scott Cranfill; Scott.Cranfill@cfpb.gov; -
+	1Adam Scott; adam.scott@cfpb.gov; -
+	2William Barton; William.Barton@cfpb.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Small Business Administration</td>
+	<td>15USC-14A</td>
+	<td>
+	0Andrew Davy; Andrew.Davy@sba.gov; -
+	1Ryan Hillard; Ryan.Hillard@sba.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>US Agency for International Development</td>
+	<td>22USC-74</td>
+	<td>
+	0Danny You; syou@usaid.gov; -
+	1Nancy Le; nle@usaid.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>General Services Administration</td>
+	<td>40USC-03</td>
+	<td>
+	0Vicki McFadden; victoria.mcfadden@gsa.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>2024-03-28</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Social Security Administration</td>
+	<td>42USC-07</td>
+	<td>
+	0Joseph Amalfitano; joseph.amalfitano@ssa.gov; -
+	1Kailash (Kal) Pathak; kailash.pathak@ssa.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>2020-03-21</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>National Science Foundation</td>
+	<td>42USC-16</td>
+	<td>
+	0Elanchezhian Sivagnanam; esivagna@nsf.gov; -
+	1Garey Taylor; gtaylor@associates.nsf.gov; -
+	2Akhilesh Mathur; amathur@associates.nsf.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Nuclear Regulatory Commission</td>
+	<td>44USC-13</td>
+	<td>
+	0Arthur Smith; arthur.smith@nrc.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>National Archives and Records Administration</td>
+	<td>44USC-21</td>
+	<td>
+	0Mike Senseney; michael.senseney@nara.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>2020-11-23</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>National Aeronautics and Space Administration</td>
+	<td>51USC-201</td>
+	<td>
+	0Travis Kantz; travis.kantz@nasa.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>2020-08-28</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+<tr>
+	<td>Federal Election Commission</td>
+	<td>52USC-01</td>
+	<td>
+	0Laura Beaufort; lbeaufort@fec.gov; -
+	</td>
+	<td>
+	0-; -
+	</td>
+	<td>-</td>
+	<td>
+	0-; -
+	</td>
+</tr>
+</table>

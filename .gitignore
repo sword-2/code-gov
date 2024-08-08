@@ -1,1 +1,20 @@
 .DS_Store
+
+#file system parts to ignore when git uploads
+
+0
+.git/*
+.gitignore
+
+#Ignore all - separate entries for subfolders, dot files, and numeric files.
+#*/*
+#.*
+#[0-9]*
+
+#If doing ignore all, keep some stuff
+#!docs/*
+
+draft/*
+utilities/.build/*
+utilitites/Package.resolved
+xmlparser

@@ -1,3 +1,6 @@
 # Dept of Commerce
 
-A draft code.json might be started by using one issue someone submitted for adding "OpenDCS software" project to the code.json. This issue was observed at: https://github.com/GSA/code-gov/issues/169
+An option to create a draft code.json may be possible using an issue observed at: https://github.com/GSA/code-gov/issues/169.
+
+Issue title: Adding Open Source Projects
+Issue software for: OpenDCS. [Open Data Collection System for Hydro/Meteorologic Data]

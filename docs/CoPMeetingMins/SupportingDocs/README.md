@@ -2,7 +2,7 @@
 
 ## Status
 
-The existing liaisons.md file was reformatted to JSON and some modifications attempted.
+The existing liaisons.md file was reformatted to JSON and some modifications attempted. A [web page](https://htmlpreview.github.io/?https://github.com/sword-2/code-gov/blob/gsa/docs/CoPMeetingMins/SupportingDocs/agency_liaisons2.html) is also attempted.
 
 ## investigate new columns
 Some new columns or json objects investigated for the reasons below.

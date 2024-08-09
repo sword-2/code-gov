@@ -3,11 +3,122 @@
 </head><body>
 
 <h2>Planned update(s)</h2>
-<p>This page was a planned update to the liaisons list. The planned differences will be reading the liaisons from a json file, and also giving the web browser the option to select which programming language formatted (sorted) the liaison's json data.</p>
+<p>This page was a planned update to the liaisons list to give the web browser an option to select which programming language formatted (sorted) the liaison's data ahead of time as stored on github.</p>
 
-<p>Web browser selection was to be as fair as possible among a set of companies which developed the languages. Minimizing preferences will cause more programming effort, so the success is to be determined (TBD).</p>
+<p>More languages are more programming effort so the extent of programming is to be determined (TBD).</p>
+
+<label for="company">Choose a company/organization or programming language:</label>
+
+<select name="company" id="company" onChange="getLiaisons()">
+	<option value="Google">Google, Inc.</option>
+	<option value="Apple">Apple, Inc.</option>
+	<option value="Oracle">Oracle, Inc</option>
+	<option value="Microsoft">Microsoft, Inc.</option>
+	<option value="Python">Python Software Foundation</option>
+	<option value="Pascal">Delphi/Object Pascal</option>
+	<option value="Ruby">Ruby</option>
+	<option value="Rust">Rust Foundation</option>
+	<option value="Ada">Ada</option>
+</select>
+
+
 
 <p>
-The languages from companies were run on the local computer then uploaded to GitHub. This was as opposed to integrating the code into a web page as advertised by the [Web Assembly](https://webassembly.org/) effort. Web Assembly was not understood well enough at this time so not attempted. Some JavaScript maybe added to retrieve files though.</p>
+The languages from companies was not integrated with the advertised [Web Assembly](https://webassembly.org/) effort. Web Assembly was not understood well enough to attempt. The web page only has JavaScript to retrieve a static file done by a langauge..</p>
+
+<div id="dataOuter">
+	<div id="dataInner">-.</div>
+</div>
+
+<div id="statOuter">
+	<p id=statInner>Status:</p>
+</div>
+
+<script>
+	//global variables to web page
+	var co = document.getElementById("company"); 
+	var dataOuter =  document.getElementById("dataOuter");
+	var dataInner =  document.getElementById("dataInner");
+	var stat =  document.getElementById("stat");
+	var body = document.body;
+
+
+function updateStat(txt) {
+	//alert(txt);
+	var prevTxt = statInner.innerHTML;
+	statInner.remove(); //remove prev paragraph for stat
+	statInner = document.createElement("p");
+	statInner.innerHTML = prevTxt + "<br>" + txt;
+	statInner.setAttribute("id", "stat");
+	statInner.style.border = "thick solid #0000FF";
+	statOuter.appendChild(statInner);
+}
+
+
+async function updateData(url) {
+	//fetch the data first
+    	const response = await fetch(url);
+    	//return await response.text();
+
+	//var prevTxt = stat.innerHTML;   //don't need to keep previons  
+	dataInner.remove(); //remove prev div
+	dataInner = document.createElement("div");
+	dataInner.innerHTML = await response.text();
+	dataInner.setAttribute("id", "data");
+	dataInner.style.border = "thick solid #0000FF";
+	dataOuter.appendChild(dataInner);
+}
+/*     */
+
+
+function getLiaisons() {
+	var statTxt = "";
+
+	switch(co.value) {
+		case "Google":
+			statTxt = co.value + " option selected.";
+			updateStat(co.value);
+			const urlGo='https://raw.githubusercontent.com/sword-2/code-gov/gsa/docs/CoPMeetingMins/SupportingDocs/liaisons-go/htmlTable.go.l14';
+			updateData(urlGo);
+			break;
+		case "Apple":
+			statTxt = co.value + " option not implemented.";
+			updateStat(statTxt);
+			break;
+		case  "Oracle":
+			statTxt = co.value + " option not implemented.";
+			updateStat(statTxt);
+			break;
+		case "Microsoft":
+			statTxt = co.value + " option not implemented.";
+			updateStat(statTxt);
+			break;
+		case "Python":
+			statTxt = co.value + " option not implemented.";
+			updateStat(statTxt);
+			break;
+		case "Pascal":
+			statTxt = co.value + " option not implemented.";
+			updateStat(statTxt);
+			break;
+		case "Ruby":
+			statTxt = co.value + " option not implemented.";
+			updateStat(statTxt);
+			break;
+		case "Rust":
+			statTxt = co.value + " option not implemented.";
+			updateStat(statTxt);
+			break;
+		case "Ada":
+			statTxt = co.value + " option not implemented.";
+			updateStat(statTxt);
+			break;
+		default:
+			statTxt = co.value + " option was no an expected option.";
+			updateStat(statTxt);
+	}
+}
+
+</script>
 
 </body></html>

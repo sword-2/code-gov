@@ -1,4 +1,4 @@
-// A set of functions for reading / ptoring the liaisons.json
+// functions for reading, sorting, and writing to an .l14 file
 
 package liaisons
 
@@ -75,7 +75,7 @@ func PrintStruct() {
 		htmlTable += "\n<p>comments:" + r.Comments + "</p>"    //fmt.Printf("\nr.Comments=%s", r.Comments)
 
 	//table setup
-		htmlTable += "\n<table border=1><caption>Agencies and liaisons</caption>"
+		htmlTable += "\n<table border=1><caption>Agencies and liaisons as processed by Go language (Google)</caption>"
 		htmlTable += "\n\t<tr><th>Agency</th>"
 		htmlTable += "\n\t<th>Legal Ref</th>"
 		htmlTable += "\n\t<th>liaisons</th>"
@@ -95,13 +95,15 @@ func PrintStruct() {
 
 		htmlTable += "\n\t<td>"
 			for j := 0; j < len(r.Agencies[i].Liaisons); j++ {
-				htmlTable += "\n\t" + strconv.Itoa(j) + r.Agencies[i].Liaisons[j].Name + "; " +  r.Agencies[i].Liaisons[j].Email + "; " +  r.Agencies[i].Liaisons[j].Phone
+				htmlTable += "\n\t" + strconv.Itoa(j) + ": " + r.Agencies[i].Liaisons[j].Name + "; " +  r.Agencies[i].Liaisons[j].Email + "; " +  r.Agencies[i].Liaisons[j].Phone
+				if j != len(r.Agencies[i].Liaisons) { htmlTable += "<br>" }
 			}
 			htmlTable += "\n\t</td>"
 
 		htmlTable += "\n\t<td>"
 			for j := 0; j < len(r.Agencies[i].Repos); j++ {
-				htmlTable += "\n\t" + strconv.Itoa(j) + r.Agencies[i].Repos[j].Name + "; " +  r.Agencies[i].Repos[j].Url
+				htmlTable += "\n\t" + strconv.Itoa(j) + ": " + r.Agencies[i].Repos[j].Name + "; " +  r.Agencies[i].Repos[j].Url
+				if j != len(r.Agencies[i].Repos) { htmlTable += "<br>" }
 			}
 		htmlTable += "\n\t</td>"
 
@@ -109,7 +111,8 @@ func PrintStruct() {
 
 		htmlTable += "\n\t<td>"
 			for j := 0; j < len(r.Agencies[i].Offboarding); j++ {
-				htmlTable += "\n\t" + strconv.Itoa(j) + r.Agencies[i].Offboarding[j].Title + "; " +  r.Agencies[i].Offboarding[j].Url
+				htmlTable += "\n\t" + strconv.Itoa(j) + ": " + r.Agencies[i].Offboarding[j].Title + "; " +  r.Agencies[i].Offboarding[j].Url
+				if j != len(r.Agencies[i].Offboarding) { htmlTable += "<br>" }
 			}
 		htmlTable += "\n\t</td>"
 

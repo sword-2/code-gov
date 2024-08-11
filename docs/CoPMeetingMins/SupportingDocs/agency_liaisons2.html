@@ -2,29 +2,31 @@
 <title>liaisons version 2</title>
 </head><body>
 
-<h2>Planned update(s)</h2>
-<p>This page was a planned update to the liaisons list to give the web browser an option to select which programming language formatted (sorted) the liaison's data ahead of time as stored on github.</p>
+<h2>Description</h2>
+<p>This page is under construction. It reads a list of liaisons with an option to select which programming language formatted (sorted) the liaison's data ahead of time, as statically stored on GitHub. The programming language had to read json format and convert to a HTML fragment with a file extension *.l14.</p>
 
-<p>More languages are more programming effort so the extent of programming is to be determined (TBD).</p>
+<p>More languages take more time, so little is completed initially.</p>
 
-<label for="company">Choose a company/organization or programming language:</label>
+<label for="company">Choose the programming language which prepared a *.l14 file:</label>
 
-<select name="company" id="company" onChange="getLiaisons()">
+<select name="company" id="company" onClick="getLiaisons()">
 	<option value="Google">Google, Inc.</option>
-	<option value="Apple">Apple, Inc.</option>
-	<option value="Oracle">Oracle, Inc</option>
-	<option value="Microsoft">Microsoft, Inc.</option>
-	<option value="Python">Python Software Foundation</option>
-	<option value="Pascal">Delphi/Object Pascal</option>
-	<option value="Ruby">Ruby</option>
-	<option value="Rust">Rust Foundation</option>
-	<option value="Ada">Ada</option>
+	<option value="Apple" disabled>Apple, Inc.</option>
+	<option value="Oracle" disabled>Oracle, Inc</option>
+	<option value="Microsoft" disabled>Microsoft, Inc.</option>
+	<option value="Python" disabled>Python Software Foundation</option>
+	<option value="Pascal" disabled>Delphi/Object Pascal</option>
+	<option value="Ruby" disabled>Ruby</option>
+	<option value="Rust" disabled>Rust Foundation</option>
+	<option value="Ada" disabled>Ada</option>
 </select>
 
 
 
 <p>
-The languages from companies was not integrated with the advertised [Web Assembly](https://webassembly.org/) effort. Web Assembly was not understood well enough to attempt. The web page only has JavaScript to retrieve a static file done by a langauge..</p>
+The languages from companies or organizations was not integrated with the advertised [Web Assembly](https://webassembly.org/) effort. The Web Assembly was not understood well enough to do it. The web page's JavaScript only retrieves a static file prepared by a language. While JavaScript is capable of reading a JSON direct, it was not know if it would count as a memory safe language.</P>
+
+<P>The *.l14 file extension represent an incomplete project. It came from Luke 14:28-30, but of that passage's context was not JavaScript, HTML, memory safe languages, or code liaisons.</p>
 
 <div id="dataOuter">
 	<div id="dataInner">-.</div>
@@ -68,8 +70,6 @@ async function updateData(url) {
 	dataInner.style.border = "thick solid #0000FF";
 	dataOuter.appendChild(dataInner);
 }
-/*     */
-
 
 function getLiaisons() {
 	var statTxt = "";
